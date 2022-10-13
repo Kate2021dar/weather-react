@@ -61,7 +61,7 @@ function App() {
         <a
           href="https://github.com/Kate2021dar/weather-react.git"
           target="_blank"
-		  rel="noreferrer"
+		 
           className="Link"
         >
           Open-source code, by Kate Rybina
@@ -87,7 +87,7 @@ function App() {
               <a
                 href="https://github.com/Kate2021dar/weather-react.git"
                 target="_blank"
-				rel="noreferrer"
+				
                 className="Link"
               >
                 Open-source code, by Kate Rybina
