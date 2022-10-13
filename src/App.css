@@ -1,0 +1,38 @@
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: brown;
+}
+.Data {
+  display: inline-block;
+  text-align: left;
+}
+
+.Input {
+  height: 35px;
+  background-color: burlywood;
+  color: blue;
+}
+
+.Search {
+  height: 35px;
+  background-color: coral;
+  color: blue;
+  font-size: 16px;
+}
+
+
+
+
