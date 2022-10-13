@@ -39,46 +39,51 @@ function App() {
   if (cityInput){
   return (
     <div className="App">
-   <header className="App-header">
-	 <h1>Weather App</h1>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="search"
-          placeholder="Enter a city .."
-          autoFocus="on"
-           onChange={updateCity}
-          className="Input"
-        />
-        <input type="submit" value="Search" className="Search" />
-      </form>
-      <ul className="Data">
-        <li>Temperature: {Math.round(temperature)} C°</li>
-        <li>Description: {description} </li>
-        <li>Humidity: {Math.round(humidity)}%</li>
-        <li>Wind:{Math.round(wind)} km/h </li>
-        <img src={icon.Icon} alt={setDescription.description} />
-      </ul>   
-
-   </header>
+      <header className="App-header">
+        <h1>Weather App</h1>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="search"
+            placeholder="Enter a city .."
+            autoFocus="on"
+            onChange={updateCity}
+            className="Input"
+          />
+          <input type="submit" value="Search" className="Search" />
+        </form>
+        <ul className="Data">
+          <li>Temperature: {Math.round(temperature)} C°</li>
+          <li>Description: {description} </li>
+          <li>Humidity: {Math.round(humidity)}%</li>
+          <li>Wind:{Math.round(wind)} km/h </li>
+          <img src={icon.Icon} alt={setDescription.description} />
+        </ul>
+        <a href="" target="_blank" className="Link">
+          Open-source code, by Kate Rybina
+        </a>
+      </header>
     </div>
   );
     } else {
         return (
           <div className="App">
-		   <header className="App-header">
-          <h1>Weather App</h1>
-          <form onSubmit={handleSubmit}>
-          <input
-           type="search"
-           placeholder="Enter a city .."
-           autoFocus="on"
-           onChange={updateCity}
-          className="Input"
-        />
-        <input type="submit" value="Search" className="Search" />
-      </form>
-	  </header>
-    </div>
+            <header className="App-header">
+              <h1>Weather App</h1>
+              <form onSubmit={handleSubmit}>
+                <input
+                  type="search"
+                  placeholder="Enter a city .."
+                  autoFocus="on"
+                  onChange={updateCity}
+                  className="Input"
+                />
+                <input type="submit" value="Search" className="Search" />
+              </form>
+              <a href="" target="_blank" className="Link">
+                Open-source code, by Kate Rybina
+              </a>
+            </header>
+          </div>
         );
       }
     }

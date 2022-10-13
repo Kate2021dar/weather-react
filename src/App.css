@@ -13,7 +13,6 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-  color: brown;
 }
 .Data {
   display: inline-block;
@@ -28,9 +27,17 @@
 
 .Search {
   height: 35px;
+  width: 100px;
   background-color: coral;
   color: blue;
   font-size: 16px;
+  margin: 0 0 0 5px;
+}
+
+.Link{
+	color: white;
+	margin-top: 15px;
+	font-size: 14px;
 }
 
 
