@@ -58,7 +58,11 @@ function App() {
           <li>Wind:{Math.round(wind)} km/h </li>
           <img src={icon.Icon} alt={setDescription.description} />
         </ul>
-        <a href="" target="_blank" className="Link">
+        <a
+          href="https://github.com/Kate2021dar/weather-react.git"
+          target="_blank"
+          className="Link"
+        >
           Open-source code, by Kate Rybina
         </a>
       </header>
@@ -79,7 +83,11 @@ function App() {
                 />
                 <input type="submit" value="Search" className="Search" />
               </form>
-              <a href="" target="_blank" className="Link">
+              <a
+                href="https://github.com/Kate2021dar/weather-react.git"
+                target="_blank"
+                className="Link"
+              >
                 Open-source code, by Kate Rybina
               </a>
             </header>
