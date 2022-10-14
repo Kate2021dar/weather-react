@@ -38,8 +38,8 @@ function App() {
 
   if (cityInput){
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="app-weather">
+      <header className="app-header">
         <h1>Weather App</h1>
         <form onSubmit={handleSubmit}>
           <input
@@ -47,11 +47,11 @@ function App() {
             placeholder="Enter a city .."
             autoFocus="on"
             onChange={updateCity}
-            className="Input"
+            className="city-input"
           />
-          <input type="submit" value="Search" className="Search" />
+          <input type="submit" value="search" className="city-search" />
         </form>
-        <ul className="Data">
+        <ul className="city-data">
           <li>Temperature: {Math.round(temperature)} C°</li>
           <li>Description: {description} </li>
           <li>Humidity: {Math.round(humidity)}%</li>
@@ -62,17 +62,18 @@ function App() {
           href="https://github.com/Kate2021dar/weather-react.git"
           target="_blank"
 		 
-          className="Link"
+          className="git-link"
         >
           Open-source code, by Kate Rybina
         </a>
       </header>
-    </div>
+	  </div>
+    
   );
     } else {
         return (
-          <div className="App">
-            <header className="App-header">
+        <div className="app-weather">
+            <header className="app-header">
               <h1>Weather App</h1>
               <form onSubmit={handleSubmit}>
                 <input
@@ -80,20 +81,21 @@ function App() {
                   placeholder="Enter a city .."
                   autoFocus="on"
                   onChange={updateCity}
-                  className="Input"
+                  className="city-input"
                 />
-                <input type="submit" value="Search" className="Search" />
+                <input type="submit" value="search" className="city-search" />
               </form>
               <a
                 href="https://github.com/Kate2021dar/weather-react.git"
                 target="_blank"
 				
-                className="Link"
+                className="git-link"
               >
                 Open-source code, by Kate Rybina
               </a>
-            </header>
-          </div>
+           
+          </header>
+		  </div>
         );
       }
     }

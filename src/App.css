@@ -8,24 +8,27 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
 
-.App {
-  font-family: sans-serif;
-  text-align: center;
+.app-weather {
+	  font-family: sans-serif;
+	  text-align: center;
 }
-.Data {
+
+
+.city-data {
   display: inline-block;
   text-align: left;
 }
 
-.Input {
+.city-input {
   height: 35px;
   background-color: burlywood;
   color: blue;
 }
 
-.Search {
+.city-search {
   height: 35px;
   width: 100px;
   background-color: coral;
@@ -34,7 +37,7 @@
   margin: 0 0 0 5px;
 }
 
-.Link{
+.git-link{
 	color: white;
 	margin-top: 15px;
 	font-size: 14px;
