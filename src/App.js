@@ -61,18 +61,17 @@ function App() {
         <a
           href="https://github.com/Kate2021dar/weather-react.git"
           target="_blank"
-		 
+          rel="noreferrer"
           className="git-link"
         >
           Open-source code, by Kate Rybina
         </a>
       </header>
-	  </div>
-    
+    </div>
   );
     } else {
         return (
-        <div className="app-weather">
+          <div className="app-weather">
             <header className="app-header">
               <h1>Weather App</h1>
               <form onSubmit={handleSubmit}>
@@ -88,14 +87,13 @@ function App() {
               <a
                 href="https://github.com/Kate2021dar/weather-react.git"
                 target="_blank"
-				
+                rel="noreferrer"
                 className="git-link"
               >
                 Open-source code, by Kate Rybina
               </a>
-           
-          </header>
-		  </div>
+            </header>
+          </div>
         );
       }
     }
